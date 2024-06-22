@@ -13,5 +13,3 @@
 // import { RouterLink } from 'vue-router'
 import CommingSoonView from './views/CommingSoonView.vue'
 </script>
-
-<style scoped></style>

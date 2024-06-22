@@ -7,8 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import CountdownTimer from '../components/CountdownTimer.vue'
 import PreloadBg from '../components/PreloadBg.vue'
+import CountdownTimer from '@/components/CountdownTimer.vue'
 </script>
-
-<style lang="scss"></style>
