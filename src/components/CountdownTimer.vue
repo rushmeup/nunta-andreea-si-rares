@@ -2,7 +2,8 @@
   <div class="countdown">
     <div
       class="timer"
-      style="font-size: 120px; font-weight: bold; color: #f0ffff; text-shadow: #708090 1px 0 10px"
+      flex
+      style="font-weight: bold; color: #f0ffff; text-shadow: #708090 1px 0 10px"
     >
       {{ formattedTime }}
     </div>
@@ -44,15 +45,16 @@ function updateTimer() {
 <style scoped>
 .countdown {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+  /* margin-left: -6vw; */
   height: 100vh;
-  width: 100vw;
+  width: 80vw;
   z-index: 10;
 }
 
 .timer {
-  font-size: 480px;
+  font-size: 10vmin;
   font-weight: bold;
 }
 </style>

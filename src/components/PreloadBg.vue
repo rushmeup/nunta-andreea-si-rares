@@ -1,12 +1,12 @@
 <template>
   <div id="preload_bg">
-    <!-- <img :src="bg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=0.3" />
   </div>
 </template>
 
 <style>
 body {
-  background-image: url('@/assets/DSC_8709.jpg');
+  background-image: url('@/assets/DSC_8709_bkp.jpg');
   background: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,8 +15,11 @@ body {
 
 #preload_bg {
   position: fixed;
-  width: 100%;
+  display: flex;
+  width: device-width;
   height: 100%;
-  top: 100px;
+  /* top: 100px; */
+  justify-content: center;
+  align-items: center;
 }
 </style>
