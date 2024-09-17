@@ -1,7 +1,7 @@
 <template>
   <ul class="navigation">
     <li class="current">
-      <NuxtLink to="/index-3">Acasa</NuxtLink>
+      <NuxtLink to="/index">Acasa</NuxtLink>
       <!-- <ul> -->
         <!-- <li><NuxtLink to="/">Home page 01</NuxtLink></li> -->
         <!-- <li><NuxtLink to="/index-2">Home page 02</NuxtLink></li> -->
