@@ -27,9 +27,9 @@
                         <div class="image-column">
                             <div class="image-box">
                                 <figure class="image">
-                                    <NuxtLink to="/images/resource/event_biserica.jpg" class="lightbox-image">
+                                    <!-- <NuxtLink to="/images/resource/event_biserica.jpg" class="lightbox-image"> -->
                                     <img src="/images/resource/event_biserica.jpg" alt="Image">
-                                    </NuxtLink>
+                                    <!-- </NuxtLink> -->
                                 </figure>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
                     <div class="inner-box">
                         <div class="date-column">
                             <div class="date-box">
-                                <div class="date"><span>22:00</span>felul principal</div>
+                                <div class="date"><span>24:00</span>felul principal</div>
                                 <!-- <div class="icon-flower-6"></div> -->
                                 <!-- <div class="icon-flower-7"></div> -->
                             </div>
@@ -174,7 +174,7 @@
                                 <div class="time"><i class="icon far fa-database"></i> <p>Restaurant Garden</p></div>
                                 <!-- <h4 class="title"><NuxtLink to="/page-events">Wedding Reception</NuxtLink></h4> -->
                                 <h4 class="title">Nouă ne place rața</h4>
-                                <div class="text">Pulpă de rață rumenită în cuptot cu piure de țelină și hribi trași la tigaie</div>
+                                <div class="text">Pulpă de rață rumenită în cuptor cu piure de țelină și hribi trași la tigaie</div>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
                     <div class="inner-box">
                         <div class="date-column">
                             <div class="date-box">
-                                <div class="date"><span>24:00</span>dulcele</div>
+                                <div class="date"><span>01:00</span>dulcele</div>
                                 <!-- <div class="icon-flower-6"></div> -->
                                 <!-- <div class="icon-flower-7"></div> -->
                             </div>
