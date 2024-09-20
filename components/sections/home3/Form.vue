@@ -15,7 +15,7 @@
                             <figure class="image text-center"><img src="/images/icons/icon-circle-star.png" alt="Image"></figure>
                             <h3 class="title">Confirmati participarea?</h3>
                             <!--Contact Form-->
-                            <form method="post" action="get" id="contact-form">
+                            <form ref="form" @submit.prevent="sendEmail" method="post" id="contact-form">
                                 <div class="row">
                                     <div class="form-group col-lg-6 col-md-6 col-sm-6">
                                         <label class="custom-radio-box">Da, voi veni
@@ -43,30 +43,30 @@
                                     </div>
                                     <div class="form-group col-lg-12">
                                         <div class="input-outer">
-                                            <input type="text" name="name" placeholder="Numele complet" required>
+                                            <input type="text" name="name" placeholder="Numele complet" v-model="name" required>
                                         </div>
                                     </div>
-                        
+                                    
                                     <div class="form-group col-lg-12">
                                         <div class="input-outer">
-                                            <input type="email" name="email" placeholder="Adresa de email" required>
+                                            <input type="email" name="email" placeholder="Adresa de email" v-model="email" required>
                                         </div>
                                     </div>
-                        
+                                    
                                     <div class="form-group col-lg-12">
                                         <div class="input-outer">
-                                            <input type="text" name="number" placeholder="Numarul de invitati" required>
+                                            <input type="text" name="number" placeholder="Numarul de invitati" v-model="guestNumber" required>
                                         </div>
                                     </div>
-
+                                    
                                     <div class="form-group col-lg-12">
                                         <div class="input-outer">
-                                            <textarea name="message" placeholder="Ai un mesaj?"></textarea>
+                                            <textarea name="message" v-model="message" placeholder="Ai un mesaj?"></textarea>
                                         </div>
                                     </div>
-                    
+                                    
                                     <div class="form-group text-center col-lg-12">
-                                        <button class="theme-btn btn-style-two yellow-bg" type="submit" name="submit-form"><span class="btn-title">Trimite</span></button>
+                                        <button class="theme-btn btn-style-two yellow-bg" type="submit" name="submit-form" ><span class="btn-title">Trimite</span></button>
                                     </div>
                                 </div>
                             </form>
@@ -74,12 +74,12 @@
                         <!--End Contact Form -->
                     </div>
                 </div>
-
+                
                 <!-- Image Column -->
                 <div class="image-column col-xl-7 col-lg-6 col-md-12 wow fadeInRight" data-wow-delay="200ms">
                     <div class="inner-column">
                         <div class="image-box">
-                            <figure class="image overlay-anim"><NuxtLink to="/images/resource/contact2-1.jpg" class="lightbox-image" data-fancybox=""><img src="/images/resource/IMG_2066.jpg" alt="Image"></NuxtLink></figure>
+                            <figure class="image overlay-anim"><img src="/images/resource/IMG_2066.jpg" alt="Image"></figure>
                         </div>
                         <div class="content-box">
                             <figure class="image"><img src="/images/icons/icon-cone.png" alt="Image"></figure>
@@ -98,5 +98,30 @@
 </template>
 
 <script setup lang="ts">
-    const party = defineModel(false)
+import emailjs from '@emailjs/browser'
+
+const party = defineModel(false)
+const name = defineModel('name')
+const email = defineModel('email')
+const guestNumber = defineModel('guestNumber')
+const message = defineModel('message')
+
+const form = useTemplateRef('form')
+console.log('name: ' + name.value)
+
+const sendEmail = () => {
+    emailjs
+    .sendForm('service_rnafhnr', 'template_v2a3qv9', form, {
+        publicKey: 'wKNbU_8OFzvrr9Ekc',
+    })
+    .then(
+    () => {
+        console.log('SUCCESS!');
+    },
+    (error) => {
+        console.log('FAILED...', error.text);
+    },
+    );
+}
+
 </script>

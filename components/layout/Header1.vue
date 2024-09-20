@@ -129,7 +129,7 @@
     //End Sticky Menu -->
   </header>
   <!-- Hidden Bar -->
-  <section class="hidden-bar">
+  <!-- <section class="hidden-bar">
     <div class="inner-box">
       <div class="upper-box">
         <div class="nav-logo"><NuxtLink to="/index.html"><img src="/images/logo-4.png" alt="" title=""></NuxtLink></div>
@@ -166,7 +166,7 @@
         <li><NuxtLink to="/#"><i class="fab fa-instagram"></i></NuxtLink></li>
       </ul>
     </div>
-  </section>
+  </section> -->
   <!--End Hidden Bar -->
 </template>
 
