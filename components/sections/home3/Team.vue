@@ -48,13 +48,11 @@
                         <div class="team-block-two">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <!-- <figure class="image"><img src="/images/resource/team2-1.jpg" alt=""></NuxtLink></figure> -->
                                     <figure class="image"><img src="/images/resource/nasa.jpeg" alt=""></figure>
                                     <div class="icon-flower-10"></div>
                                     <div class="icon-flower-11"></div>
                                 </div>
                                 <div class="content-box">
-                                    <!-- <h6 class="name">Robina Molines</NuxtLink></h6> -->
                                     <h6 class="name">Cătălina Elena Ispas (Răpi)</h6>
                                     <span class="designation">Nașa</span>
                                     <ul class="social-icon-two">
@@ -70,13 +68,11 @@
                         <div class="team-block-two">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <!-- <figure class="image"><img src="/images/resource/team2-2.jpg" alt=""></NuxtLink></figure> -->
                                     <figure class="image"><img src="/images/resource/nasul.jpeg" alt=""></figure>
                                     <div class="icon-flower-10"></div>
                                     <div class="icon-flower-11"></div>
                                 </div>
                                 <div class="content-box">
-                                    <!-- <h6 class="name">Willimes Dom</NuxtLink></h6> -->
                                     <h6 class="name">Ciprian Ispas</h6>
                                     <span class="designation">Nașul</span>
                                     <ul class="social-icon-two">
@@ -121,7 +117,6 @@
                                     <span class="designation">Socrii mici</span>
                                     <ul class="social-icon-two">
                                         <li><NuxtLink to="https://www.facebook.com/marcel.stoean"><i class="icon fab fa-facebook-f"></i></NuxtLink></li>
-                                        <!-- <li><NuxtLink to="/#"><i class="icon fab fa-instagram"></i></NuxtLink></li> -->
                                     </ul>
                                 </div>
                             </div>

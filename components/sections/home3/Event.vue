@@ -27,9 +27,7 @@
                         <div class="image-column">
                             <div class="image-box">
                                 <figure class="image">
-                                    <!-- <NuxtLink to="/images/resource/event_biserica.jpg" class="lightbox-image"> -->
                                     <img src="/images/resource/event_biserica.jpg" alt="Image">
-                                    <!-- </NuxtLink> -->
                                 </figure>
                             </div>
                         </div>
@@ -37,7 +35,6 @@
                         <div class="content-column">
                             <div class="content-box">
                                 <div class="time"><i class="icon far fa-plus"></i> <p>Biserica «Sfânta Cuvioasă Parascheva»</p></div>
-                                <!-- <h4 class="title"><NuxtLink to="/page-events">Ceremonia Religioasa</NuxtLink></h4> -->
                                 <h4 class="title">Ceremonia Religioasa</h4>
                                 <div class="text">Incununarea povestii noastre de iubire il va avea ca martor pe Dumnezeu si pe fiecare dintre voi.</div> <div>Va asteptam cu inima deschisa!</div>
                                 <!-- <div class="text">From the vibrant flowers and trees to the gently flowing streams, this park provides the perfect backdrop for this joyous occasion.</div> -->
@@ -59,14 +56,12 @@
                         <div class="image-column">
                             <div class="image-box">
                                 <figure class="image">
-                                    <!-- <NuxtLink to="/images/resource/event2-1.jpg" class="lightbox-image"><img src="/images/resource/event2-1.jpg" alt="Image"></NuxtLink></figure> -->
                                     <img src="/images/resource/524.jpg" alt="Image"></figure>
                             </div>
                         </div>
                         <div class="content-column">
                             <div class="content-box">
                                 <div class="time"><i class="icon far fa-map-marker"></i> <p>Restaurant Garden</p></div>
-                                <!-- <h4 class="title"><NuxtLink to="/page-events">Wedding Reception</NuxtLink></h4> -->
                                 <h4 class="title">Receptia invitatilor</h4>
                                 <div class="text">Bine ati venit! <br> Let's WINE with us!</div>
                             </div>
@@ -86,7 +81,6 @@
                         </div>
                         <div class="image-column">
                             <div class="image-box">
-                                <!-- <figure class="image"><NuxtLink to="images/resource/event2-3.jpg" class="lightbox-image"><img src="/images/resource/event2-3.jpg" alt="Image"></NuxtLink></figure> -->
                                 <figure class="image"><img src="/images/resource/starter.jpeg" alt="Image"></figure>
                             </div>
                         </div>
@@ -112,14 +106,12 @@
                         </div>
                         <div class="image-column">
                             <div class="image-box">
-                                <!-- <figure class="image"><NuxtLink to="images/resource/event2-3.jpg" class="lightbox-image"><img src="/images/resource/event2-3.jpg" alt="Image"></NuxtLink></figure> -->
                                 <figure class="image"><img src="/images/resource/din_mare.jpeg" alt="Image"></figure>
                             </div>
                         </div>
                         <div class="content-column">
                             <div class="content-box">
                                 <div class="time"><i class="icon far fa-database"></i> <p>Restaurant Garden</p></div>
-                                <!-- <h4 class="title"><NuxtLink to="/page-events">Wedding Reception</NuxtLink></h4> -->
                                 <h4 class="title">Biban sau lup de mare</h4>
                                 <div class="text">File de lup de mare, orez negru exotic cu limetă și legume caramelizate la cuptor</div>
                             </div>
@@ -139,7 +131,6 @@
                         </div>
                         <div class="image-column">
                             <div class="image-box">
-                                <!-- <figure class="image"><NuxtLink to="images/resource/event2-3.jpg" class="lightbox-image"><img src="/images/resource/event2-3.jpg" alt="Image"></NuxtLink></figure> -->
                                 <figure class="image"><img src="/images/resource/traditie.jpeg" alt="Image"></figure>
                             </div>
                         </div>
@@ -165,14 +156,12 @@
                         </div>
                         <div class="image-column">
                             <div class="image-box">
-                                <!-- <figure class="image"><NuxtLink to="images/resource/event2-3.jpg" class="lightbox-image"><img src="/images/resource/event2-3.jpg" alt="Image"></NuxtLink></figure> -->
                                 <figure class="image"><img src="/images/resource/principal.jpeg" alt="Image"></figure>
                             </div>
                         </div>
                         <div class="content-column">
                             <div class="content-box">
                                 <div class="time"><i class="icon far fa-database"></i> <p>Restaurant Garden</p></div>
-                                <!-- <h4 class="title"><NuxtLink to="/page-events">Wedding Reception</NuxtLink></h4> -->
                                 <h4 class="title">Nouă ne place rața</h4>
                                 <div class="text">Pulpă de rață rumenită în cuptor cu piure de țelină și hribi trași la tigaie</div>
                             </div>
@@ -192,14 +181,12 @@
                         </div>
                         <div class="image-column">
                             <div class="image-box">
-                                <!-- <figure class="image"><NuxtLink to="images/resource/event2-3.jpg" class="lightbox-image"><img src="/images/resource/event2-3.jpg" alt="Image"></NuxtLink></figure> -->
                                 <figure class="image"><img src="/images/resource/dulce.png" alt="Image"></figure>
                             </div>
                         </div>
                         <div class="content-column">
                             <div class="content-box">
                                 <div class="time"><i class="icon far fa-birthday-cake"></i> <p>Restaurant Garden</p></div>
-                                <!-- <h4 class="title"><NuxtLink to="/page-events">Wedding Reception</NuxtLink></h4> -->
                                 <h4 class="title">Mai mult fresh decât dulce</h4>
                                 <div class="text">Tort Fresh cu mousse de cocos și infuzie de lămâie și mentă aromată</div>
                             </div>
